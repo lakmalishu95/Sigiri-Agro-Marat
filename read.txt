@@ -1,0 +1,3 @@
+install library
+
+-npm install react-bootstrap-icons --save
