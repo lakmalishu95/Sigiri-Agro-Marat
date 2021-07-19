@@ -1,11 +1,13 @@
 import React from 'react';
+import '../App.css';
 
 
 function Delete(){
     return(
         <>
-        <div>
-            <h1>delete</h1>
+
+        <div className="container">
+            <h2>Delete</h2><hr />
         </div>
         </>
     )
