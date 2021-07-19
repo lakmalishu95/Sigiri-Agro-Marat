@@ -5,11 +5,9 @@ import Sigiri from '../img/sigiriya-3.jpg';
 function Contact() {
     return(
         <div className="container">
-        <h2>CONTACT US</h2><hr /><br />
+            <h2>CONTACT US</h2><hr /><br />
             <div className="row">
-            
-                <div className="col">
-                    
+                <div className="col">                    
                     <Form>
                         <Form.Group controlId="exampleForm.ControlInput1">
                             <Form.Label>Email address</Form.Label>
@@ -24,8 +22,7 @@ function Contact() {
                     </Form>
                 </div>
                 <div className="col">
-                <Image src={Sigiri} fluid />
-
+                    <Image src={Sigiri} fluid />
                 </div>
             </div>
         </div>

@@ -5,6 +5,8 @@ import About from './components/about';
 import Cardd from './components/card';
 import Contact from './components/Contact';
 import Footer from './components/footer';
+import Delete from './components/delete';
+import Namelist from './components/namelist/namelist'
 
 function App() {
   return (
@@ -14,8 +16,12 @@ function App() {
       <Hero /><br /><br /><br />
       <About /><br /><br />
       <Cardd /><br /><br />
+      <Delete /><br /><br />
       <Contact /><br /><br />
       <Footer />
+      <Namelist/>
+
+      
 
     </>
   );

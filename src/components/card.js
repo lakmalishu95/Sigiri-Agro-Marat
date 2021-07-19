@@ -52,8 +52,7 @@ function Cardd() {
                 </Card>
             </div>
         </div><br /><br />
-        <div className="row" style={{color:'Black'}}>
-            
+        <div className="row" style={{color:'Black'}}>           
             <div className="col" >
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={img3}/>
@@ -94,6 +93,7 @@ function Cardd() {
                 </Card>
             </div>
         </div><br /><br />
+        
 
         
     </div>
