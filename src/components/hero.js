@@ -7,17 +7,8 @@ import img3 from '../img/3.jpg'
 function Hero(){
     return (
 
-        <div className="container-fluid">
-            <div><h2 style={{textAlign:'center'}}>Sigiri Agro Marat</h2></div><br />
-            <div className="row">
-                <div className="col">
-                    
-                </div>
-                <div className= "col">
-                
-                </div> 
-            </div>
-            <Carousel>
+        <div className="container-fluied">
+            <Carousel fade="true" interval="3000">
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -53,13 +44,7 @@ function Hero(){
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
-            <div className="row">
-                <div className="col"></div>
-                <div className="col"></div>
-                <div className="col"></div>
-
-            </div>        
+            </Carousel>  
         </div>
 
     )

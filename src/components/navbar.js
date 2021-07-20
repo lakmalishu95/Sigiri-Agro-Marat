@@ -7,9 +7,9 @@ import logo from '../img/logo1.png'
 
 function Navb() {
     return (
-      
-        <Navbar bg="secondary" expand="lg">
-            <Navbar.Brand href="#home"><img src={logo} width="auto" height="80px" /></Navbar.Brand>
+        
+        <Navbar bg="dark" expand="lg">
+            <Navbar.Brand href="#home"><img src={logo} width="auto" height="60px" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto" >

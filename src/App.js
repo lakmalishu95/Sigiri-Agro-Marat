@@ -6,13 +6,14 @@ import Cardd from './components/card';
 import Contact from './components/Contact';
 import Footer from './components/footer';
 import Delete from './components/delete';
-import Namelist from './components/namelist/namelist'
+import Namelist from './components/namelist/namelist';
+import Head from './components/header';
 
 function App() {
   return (
     <>
-    
-      <Navb /><br /><br />
+      <Head />
+      <Navb />
       <Hero /><br /><br /><br />
       <About /><br /><br />
       <Cardd /><br /><br />

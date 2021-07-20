@@ -2,13 +2,18 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import img3 from '../img/3.jpg';
 import Button from 'react-bootstrap/Button';
+import '../App.css';
 
 
 
 function Cardd() {
     return(
     <div className="container">
-        <h2>SERVICES</h2><hr />
+        <h6>OUR SERVICES</h6>
+        <h2 style={{textAlign:'center'}}>SERVICES</h2><hr />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, sapiente cum reiciendis vel quia eos veniam quidem consectetur dignissimos, vitae id beatae? Non iusto minus optio amet excepturi laborum debitis!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod in eligendi aliquam sit. Repellendus sed eius consequatur omnis. Atque nesciunt nam numquam quaerat illo tenetur totam voluptates id vel magnam!
+            </p><br />
         
         <div className="row" style={{color:'Black'}}>
             

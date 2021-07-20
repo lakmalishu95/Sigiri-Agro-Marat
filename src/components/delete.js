@@ -7,7 +7,7 @@ function Delete(){
         <>
 
         <div className="container">
-            <h2>Delete</h2><hr />
+            <h2 style={{textAlign:'center'}}>Delete</h2><hr />
         </div>
         </>
     )
