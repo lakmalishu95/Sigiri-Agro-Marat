@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import Delete from './components/delete';
 import Namelist from './components/namelist/namelist';
 import Head from './components/header';
+import Products from './components/product';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Hero /><br /><br /><br />
       <About /><br /><br />
       <Cardd /><br /><br />
+      <Products /><br /><br />
       <Delete /><br /><br />
       <Contact /><br /><br />
       <Footer />
